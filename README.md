@@ -17,7 +17,9 @@ To install in a mail-in-a-box, (to be safe) first set the theme to something
 other than `elastic`. Then log into the box via SSH and:
 
 ```console
-# remove old theme
+# backup the included theme
+sudo tar ZacfP elastic.backup.tar.gz /usr/local/lib/roundcubemail/skins/elastic/
+# remove included theme
 sudo rm -r /usr/local/lib/roundcubemail/skins/elastic
 # install this theme
 sudo git clone https://github.com/pckilgore/roundcube-elasticdark.git \
