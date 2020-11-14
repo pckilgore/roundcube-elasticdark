@@ -4,13 +4,14 @@ Note
 This theme is not owned by me, and is made available as a convenience
 under the [licenses of the various authors](#LICENSE).
 
+It's been tested with Roundcube Webmail 1.4.9
+
 It consists of a compiled copy of the elastic theme from 
 roundcube/roundcubemail@06eb080e82d3b546343e44475a412274d018eadb including its
 various dependencies.
 
 To the extent anything additional I've done is separately licensable from the
 component parts, I release it under the terms of the UNLICENSE.
-
 
 To install in a mail-in-a-box, (to be safe) first set the theme to something 
 other than `elastic`. Then log into the box via SSH and:
