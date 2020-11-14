@@ -5,7 +5,7 @@ This theme is not owned by me, and is made available as a convenience
 under the [licenses of the various authors](#LICENSE).
 
 It consists of a compiled copy of the elastic theme from 
-roundcube/roundcubemail@06eb080e82d3b546343e44475a412274d018eadb, including its
+roundcube/roundcubemail@06eb080e82d3b546343e44475a412274d018eadb including its
 various dependencies.
 
 To the extent anything additional I've done is separately licensable from the
@@ -116,11 +116,3 @@ FOR DEVELOPERS
     In dark mode html element will have `dark-mode` class assigned.
     It is possible to disable dark mode using less variable `@dark-mode-enabled`.
     Option `dark_mode_support` in meta.json controls addition of the mode switch in the menu.
-
-
-KNOWN ISSUES
-------------
-
-1. There are known issues with running less in Roundcube devel_mode:
-    - Dialogs executed on page load are displayed out of screen.
-    - CodeMirror editor (in managesieve raw script editing mode) is broken.
